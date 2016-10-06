@@ -1,0 +1,10 @@
+{
+	"name": "salcode/bootstrap-breakpoint-indicator",
+	"description": "WordPress Plugin to disable Yoast SEO notifications",
+	"type": "wordpress-plugin",
+	"homepage": "https://github.com/salcode/wp-bootstrap-breakpoint-indicator",
+	"license": "MIT",
+	"require": {
+		"composer/installers": "~1.2"
+	}
+}
