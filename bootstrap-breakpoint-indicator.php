@@ -33,4 +33,7 @@ function fe_admin_bar_menu_bootstrap_3_breakpoints( $wp_admin_bar ) {
 	);
 
 	$wp_admin_bar->add_node( $args );
+
+	// Extra CSS is needed to ensure the menu item appears on narrow screens.
+	echo '<style>#wp-toolbar #wp-admin-bar-fe-admin-bar-menu-bootstrap-3-breakpoints { display: block; }</style>';
 }
