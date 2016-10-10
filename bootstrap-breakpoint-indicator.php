@@ -29,7 +29,7 @@ function fe_admin_bar_menu_bootstrap_3_breakpoints( $wp_admin_bar ) {
 
 	$args = array(
 		'id' => 'fe-admin-bar-menu-bootstrap-3-breakpoints',
-		'title' => '<span class="visible-xs-inline">xs</span><span class="visible-sm-inline">sm</span><span class="visible-md-inline">md</span><span class="visible-lg-inline">lg</span>',
+		'title' => '<span class="hidden-xs hidden-sm hidden-md hidden-lg" style="background-color: #000; color: #f00">Bootstrap CSS Missing, Disable Plugin Bootstrap 3 Breakpoint Indicator</span> <span class="visible-xs-inline">xs</span><span class="visible-sm-inline">sm</span><span class="visible-md-inline">md</span><span class="visible-lg-inline">lg</span>',
 	);
 
 	$wp_admin_bar->add_node( $args );
